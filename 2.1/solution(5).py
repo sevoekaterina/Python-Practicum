@@ -1,0 +1,11 @@
+name = str(input())
+price = int(input())
+mass = int(input())
+money = int(input())
+cost = (price * mass)
+back = money - cost
+print('Чек')
+print(name, '-', f'{mass}кг', '-', f'{price}руб/кг')
+print(f'Итого: {cost}руб')
+print(f'Внесено: {money}руб')
+print(f'Сдача: {back}руб')

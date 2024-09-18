@@ -1,0 +1,6 @@
+name = str(input())
+n = str(input())
+print(f'Группа №{n[0]}.')
+print(f'{n[-1]}. {name}.')
+print(f'Шкафчик: {n}.')
+print(f'Кроватка: {n[1]}.')

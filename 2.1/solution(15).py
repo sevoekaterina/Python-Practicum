@@ -1,0 +1,5 @@
+s = int(input())
+k = int(input())
+m = int(input())
+res = ((k - s) / m)
+print(str(res) + '0')
